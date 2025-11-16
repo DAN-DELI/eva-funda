@@ -1,4 +1,4 @@
-/*funcion validar acceso*/
+// funcion para validar el acceso
 
 export const validarAcceso = function(edad, contraseñaAcceso){
     const edadMinima = 18;
