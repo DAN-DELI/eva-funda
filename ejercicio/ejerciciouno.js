@@ -1,4 +1,4 @@
-// Importar la función desde el archivo donde está definida
+// Importar la función
 import { calcularPromedio } from "../modulo/funcionuno.js";
 
 // Pedir al usuario cuántas notas quiere ingresar
