@@ -1,3 +1,5 @@
+// ====== EJERCICIO #1 ======
+
 export function calcularPromedio(cantidad) {
   let suma = 0;
   let rendimiento;

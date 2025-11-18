@@ -1,5 +1,7 @@
+// ====== APLICAR EL EJERCICIO #1 ======
+
 // Importar la función
-import { calcularPromedio } from "../modulo/funcionuno.js";
+import { calcularPromedio } from "../modulo/index.js";
 
 // Pedir al usuario cuántas notas quiere ingresar
 let cantidad = parseInt(prompt("¿Cuántas notas deseas calcular?"));
