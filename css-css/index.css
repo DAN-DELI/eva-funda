@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #fdf4f4;
+    background-color: #736e57;
     text-align: center;
     display: flex;
     align-items: center;
@@ -11,7 +11,13 @@ body {
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #302c2c;
+    color: #2f1d1d;
+    text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),  /* arriba izquierda */
+     1px -1px 0 rgb(255, 255, 255),  /* arriba derecha */
+    -1px  1px 0 rgb(255, 255, 255),  /* abajo izquierda */
+     1px  1px 0 rgb(255, 255, 255);  /* abajo derecha */
+
 }
 
 ul {
@@ -30,8 +36,8 @@ button {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: #0056b3;
-    color: white;
+    background-color: #338ae7;
+    color: #000000;
     border-radius: 5px;
     transition: 0.25s ease;
     font-weight: bold;
@@ -39,29 +45,30 @@ button {
 
 button:hover {
     background-color: #241f1b;
-    transform: translateY(-6px);
+    color: #f7dc44;
+    transform: translateY(-6px);   
 }
  /* === === */
 
  /* Modifica el contenedor principal */
- .contenedor {
+.contenedor {
     
-    background-color: #338ae7;
+    background-color: #0056b3;
     width: 600px;
     border-radius: 10px;
     padding: 15px;
     margin: 0 auto;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.403);
- }
+}
 
  /* Texto para cada ejercicio */
- p {
+p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
- }
+}
 
  /* Modifica el spam del pararfo */
- .ejercicio--bold {
+.ejercicio--bold {
     font-weight: bold;
     font-size: 20px;
- }
+}

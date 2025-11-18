@@ -38,7 +38,7 @@ export const procesarImpuestos = function () {
 
     // return impuestoTotal;
     return {
-      impuestoTotal: impuestoTotal,
-      total: precio
+        impuestoTotal: impuestoTotal,
+        total: precio
     }
 };
