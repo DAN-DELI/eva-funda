@@ -1,5 +1,7 @@
-// ejercicio 3
-import { generarTabla } from "../modulo/funciontres.js";
+// ====== APLICAR EL EJERCICIO #3 ======
+
+// importar función
+import { generarTabla } from "../modulo/index.js";
 
 // pedir numero
 let numero = parseInt(prompt("Ingrese el número base de la tabla de multiplicar"));
