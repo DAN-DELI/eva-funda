@@ -1,5 +1,7 @@
-// ejercicio2.js
-import { validarAcceso } from "../modulo/funciondos.js";
+// ====== APLICAR EL EJERCICIO #2 ======
+
+// importar función
+import { validarAcceso } from "../modulo/index.js";
 
 // Pedir datos al usuario
 let edad = parseInt(prompt("Ingrese su edad"));
