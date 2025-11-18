@@ -1,28 +1,67 @@
+
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #fdf4f4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
 h1 {
-    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #302c2c;
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 li {
     margin: 15px 0;
 }
+
+/* === Modificador para todos los botones === */
 button {
-    padding: 10px 20px;
+    padding: 15px 20px;
+    width: 300px;
     font-size: 16px;
     cursor: pointer;
     border: none;
     background-color: #0056b3;
     color: white;
     border-radius: 5px;
+    transition: 0.25s ease;
+    font-weight: bold;
 }
+
 button:hover {
     background-color: #241f1b;
+    transform: translateY(-6px);
 }
+ /* === === */
+
+ /* Modifica el contenedor principal */
+ .contenedor {
+    
+    background-color: #338ae7;
+    width: 600px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.403);
+ }
+
+ /* Texto para cada ejercicio */
+ p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+ }
+
+ /* Modifica el spam del pararfo */
+ .ejercicio--bold {
+    font-weight: bold;
+    font-size: 20px;
+ }
