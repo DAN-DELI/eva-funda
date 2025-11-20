@@ -9,6 +9,7 @@ let numero = parseInt(prompt("Ingrese el número base de la tabla de multiplicar
 // aplica la función
 let resultados = generarTabla(numero);
 
+console.log("\n=== IMPRESION EN CONSOLE.LOG ===")
 // Mostrar en consola
 /*Ponemos este console log aparte, para que no quede dentro del bucle
 y se muestre acada rato, tabla del numero tal*/
@@ -23,6 +24,11 @@ for (let valor of resultados) {
 console.log(`${i} x ${numero} = ${valor}`);
 i++;
 }
+
+console.log("\n=== IMPRESION EN ARREGLO ===")
+
+// Mostrar en consola
+console.log(`Tabla del ${numero}:`, resultados);
 
 
 
